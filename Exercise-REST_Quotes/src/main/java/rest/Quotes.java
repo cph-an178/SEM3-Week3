@@ -55,6 +55,14 @@ public class Quotes {
     public String getQuoteRandom(){
         Random r = new Random();
         int id = r.nextInt(quotes.size()) + 1;
+        return "{\"quote\": \"" + quotes.get(id) + "\"}";
+    }
+    @Path("randomText")
+    @GET
+    @Produces (MediaType.APPLICATION_JSON)
+    public String getQuoteRandomText(){
+        Random r = new Random();
+        int id = r.nextInt(quotes.size()) + 1;
         return quotes.get(id);
     }
     
