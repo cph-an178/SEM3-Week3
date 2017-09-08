@@ -1,4 +1,7 @@
+restexecptions\ErrorMessage.class
+restexecptions\QuoteNotFoundException.class
+rest\ApplicationConfig.class
+restexecptions\QuoteNotFoundExceptionMapper.class
 rest\Quotes$1.class
 rest\Quotes.class
 entity\Quote.class
-rest\ApplicationConfig.class

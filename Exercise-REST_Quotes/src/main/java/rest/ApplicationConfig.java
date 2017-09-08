@@ -30,6 +30,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(rest.Quotes.class);
+        resources.add(restexecptions.QuoteNotFoundExceptionMapper.class);
     }
     
 }
