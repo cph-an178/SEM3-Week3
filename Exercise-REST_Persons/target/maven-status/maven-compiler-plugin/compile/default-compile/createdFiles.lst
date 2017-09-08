@@ -1,0 +1,7 @@
+facade\IPersonFacade.class
+rest\ApplicationConfig.class
+converter\JSONConverter.class
+entity\Person.class
+jpacontrol\Structure.class
+facade\Facade.class
+rest\RestPerson.class
