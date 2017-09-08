@@ -2,6 +2,7 @@ facade\IPersonFacade.class
 rest\ApplicationConfig.class
 converter\JSONConverter.class
 entity\Person.class
+entity\Person_.class
 jpacontrol\Structure.class
 facade\Facade.class
 rest\RestPerson.class
