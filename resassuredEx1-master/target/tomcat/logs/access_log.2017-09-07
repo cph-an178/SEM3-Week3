@@ -1,0 +1,5 @@
+127.0.0.1 - - [07/Sep/2017:15:10:54 +0200] "GET /Test1/api/calculator/add/2/2.2 HTTP/1.1" 400 79 http-bio-8080-exec-1 94
+127.0.0.1 - - [07/Sep/2017:15:10:54 +0200] "GET /Test1/api/calculator/add/2/2 HTTP/1.1" 200 41 http-bio-8080-exec-2 16
+127.0.0.1 - - [07/Sep/2017:15:10:54 +0200] "GET /Test1/api/calculator/add/2/2 HTTP/1.1" 200 41 http-bio-8080-exec-4 15
+127.0.0.1 - - [07/Sep/2017:15:10:54 +0200] "GET /Test1 HTTP/1.1" 302 - http-bio-8080-exec-6 0
+127.0.0.1 - - [07/Sep/2017:15:10:54 +0200] "GET /Test1/ HTTP/1.1" 200 806 http-bio-8080-exec-7 0
